@@ -1,0 +1,75 @@
+{
+  "myViews": [
+    {
+      "id": 1,
+      "image": "https://i.postimg.cc/TwPRbC2x/c2.png",
+      "title": "Only you perfume",
+      "size": 105,
+      "price": 1500,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "image": "https://i.postimg.cc/7hjptNgp/c2.jpg",
+      "title": "Berry & Berry Eau De Parfume",
+      "size": 100,
+      "price": 2000,
+      "quantity": 2,
+      "type": "M"
+    },
+    {
+      "id": 3,
+      "image": "https://i.postimg.cc/j5B5jg33/c1.jpg",
+      "title": "La Scento Perfume",
+      "size": 105,
+      "price": 1080,
+      "quantity": 3,
+      "type": "M"
+    },
+    {
+      "id": 4,
+      "image": "https://i.postimg.cc/K8PBHD3C/w1.jpg",
+      "title": "Izia La Nuit",
+      "size": 90,
+      "quantity": 3,
+      "price": 1800,
+      "type": "M"
+    },
+    {
+      "id": 5,
+      "image": "https://i.postimg.cc/BQsK11Vg/w2.jpg",
+      "title": "FUNCTIONAL FRAGRANCE",
+      "size": 90,
+      "price": 3500,
+      "quantity": 3,
+      "type": "W"
+    },
+    {
+      "id": 6,
+      "image": "https://i.postimg.cc/VLpPVjP9/w4.jpg",
+      "title": "Oud for Greatness",
+      "size": 50,
+      "price": 2350,
+      "quantity": 1,
+      "type": "W"
+    },
+    {
+      "id": 7,
+      "image": "https://i.postimg.cc/m2w8c48P/w5.jpg",
+      "title": "Amouage Honour Woman",
+      "size": 100,
+      "price": 5000,
+      "quantity": 6,
+      "type": "W"
+    },
+    {
+      "id": 8,
+      "image": "https://i.postimg.cc/k5nCQ7dL/w6.jpg",
+      "title": "Coco Mademoiselle",
+      "size": 90,
+      "price": 3800,
+      "quantity": 3,
+      "type": "W"
+    }
+  ]
+}
