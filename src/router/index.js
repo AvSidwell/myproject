@@ -19,7 +19,7 @@ const routes = [
   {
     path: "/contact",
     title: "contact",
-    component: () => import("../views/ContactView.vue"),
+    component: () => import("../views/Contact-Us.vue"),
   },
   {
     path: "/myViews",
@@ -31,6 +31,23 @@ const routes = [
     path: "/myViews/:id",
     title: "myView",
     component: () => import("../views/myView.vue"),
+    props: true,
+  },
+  {
+    path: "/Admin-Views",
+    title: "Admin-Views",
+    component: () => import("../views/Admin-Views.vue"),
+  },
+  {
+    path: "/Admin-Views/:id",
+    title: "Admin-View",
+    component: () => import("../views/Admin-View.vue"),
+    props: true,
+  },
+  {
+    path: "/Cart-My-Cart",
+    title: "Cart-My-Cart",
+    component: () => import("../views/Cart-My-Cart.vue"),
     props: true,
   },
   //

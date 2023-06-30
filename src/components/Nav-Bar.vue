@@ -19,11 +19,24 @@
           >
         </li>
         <li class="nav-item">
-          <router-link class="nav-link navStyle" to="/">Admin</router-link>
+          <router-link class="nav-link navStyle" to="/Admin-Views"
+            >Admin</router-link
+          >
+        </li>
+        <li class="nav-item">
+          <button
+            type="button"
+            class="navStyle btn"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            My Cart
+          </button>
         </li>
       </ul>
       <button
-        class="navbar-toggler togglerBtn" type="button"
+        class="navbar-toggler togglerBtn"
+        type="button"
         data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasDarkNavbar"
         aria-controls="offcanvasDarkNavbar"
@@ -49,24 +62,36 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <router-link class="nav-link navStyle" to="/">Home</router-link>
+              <router-link class="nav-link navStyle1" to="/">Home</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link navStyle" to="/myViews"
+              <router-link class="nav-link navStyle1" to="/myViews"
                 >Products</router-link
               >
             </li>
             <li class="nav-item">
-              <router-link class="nav-link navStyle" to="/">About</router-link>
+              <router-link class="nav-link navStyle1" to="/">About</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link navStyle" to="/contact"
+              <router-link class="nav-link navStyle1" to="/contact"
                 >Contact Us</router-link
               >
             </li>
             <li class="nav-item">
-              <router-link class="navStyle" to="">Admin</router-link>
+              <router-link class="navStyle1" to="/Admin-View"
+                >Admin</router-link
+              >
             </li>
+            <li class="nav-item">
+          <button
+            type="button"
+            class="navStyle1 btn"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            My Cart
+          </button>
+        </li>
           </ul>
         </div>
       </div>
@@ -84,7 +109,7 @@ export default {
 </script>
 <style scoped>
 nav {
-  height: 3rem;
+  height: 3.5rem;
 }
 .navStyle {
   color: #c8bff2;
@@ -123,12 +148,21 @@ nav {
 ul {
   list-style: none;
 }
+
+.btn {
+  background-color: #5c6453;
+  border: solid #c8bff2;
+}
 /* End of Nav Styling */
 
 /* Nav Responsiveness */
 @media screen and (max-width: 300px) {
   .togglerBtn {
     display: block;
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    background-color: #5c6453;
   }
   .navStyle {
     visibility: hidden;
@@ -138,6 +172,10 @@ ul {
   }
   .navStyle {
     margin: 0;
+  }
+
+  nav {
+    height: 0;
   }
 }
 </style>

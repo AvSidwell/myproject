@@ -1,6 +1,6 @@
 <template>
   <div v-if="myViews" class="row">
-    <MyCardComp v-for="myView of myViews" :key="myView.id" :myView="myView"/>
+    <MyCardComp id="me" v-for="myView of myViews" :key="myView.id" :myView="myView"/>
   </div>
   <div v-else>Processing...</div>
 </template>
@@ -19,3 +19,6 @@ export default {
   components: { MyCardComp },
 }
 </script>
+<style>
+    
+</style>
